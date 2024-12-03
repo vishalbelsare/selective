@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Copyright FMR LLC <opensource@fidelity.com>
-# SPDX-License-Identifier: GNU GPLv3
+# SPDX-License-Identifier: Apache-2.0
 
 import os
 
@@ -25,11 +25,11 @@ setuptools.setup(
     url="https://github.com/fidelity/selective",
     packages=setuptools.find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     classifiers=[
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-        "Programming Language :: Python :: 3.6",
+        "License :: OSI Approved :: Apache Software License",
+        "Programming Language :: Python :: 3.7",
         "Operating System :: OS Independent",
     ],
     project_urls={"Source": "https://github.com/fidelity/selective"},
     install_requires=required,
-    python_requires=">=3.6"
+    python_requires=">=3.7"
 )
